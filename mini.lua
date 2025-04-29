@@ -64,7 +64,6 @@ vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
 	{
 		"edte/lsp-hover.nvim",
-		ft = { "lua", "go", "cpp" },
 		opts = {},
 	},
 })
