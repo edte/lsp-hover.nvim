@@ -356,7 +356,7 @@ lsp_hover.setup = function(config)
 
 	--- TODO, maybe we should remove this.
 	--- Set-up the new provider.
-	vim.lsp.handlers["textDocument/hover"] = lsp_hover.hover
+	-- vim.lsp.handlers["textDocument/hover"] = lsp_hover.hover
 
 	vim.api.nvim_create_autocmd({ "CursorMoved", "CursorMovedI" }, {
 		callback = function(event)
